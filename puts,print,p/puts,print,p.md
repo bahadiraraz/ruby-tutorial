@@ -71,12 +71,21 @@ satırlar
 için
 3 tırnak
 """
+#ya da
+puts <<-STRING
+aaa
+bbb
+ccc
+STRING
 ```
 ```text
 çoklu
 satırlar
 için
 3 tırnak
+aaa
+bbb
+ccc
 ```
 
 <h1></h1>

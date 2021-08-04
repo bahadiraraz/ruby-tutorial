@@ -2,13 +2,13 @@
 
 * stringler bir karakter dizisi olarak tanımlanır.
 * stringlerin birçok metodu vardır.
-* tanimlamak icin ya `"string"` ya da `'string'` kullanılır.
-* uzun stringler icin `"""string"""` veya `'''string'''` kullanılır.
+* tanımlamak için ya `"string"` ya da `'string'` kullanılır.
+* uzun stringler için `"""string"""` veya `'''string'''` kullanılır.
 
-<h3>ornekler:</h3>
+<h3>örnekler:</h3>
 
 **is_a? methodu:**
-* objelerin turunu kontrol etmek icin kullanilir.
+* objelerin türünü kontrol etmek için kullanılır.
 ```ruby
 x = "merhaba"
 puts x.is_a? String
@@ -20,9 +20,9 @@ is_a? metodu ile string olup olmadığını sorguladık.
 <h1></h1>
 
 **size ve length methodu:**
-* stringlerin uzunlugunu gosterir.
+* stringlerin uzunluğunu gösterir.
 ```ruby
-x = "bahadir"
+x = "bahadır"
 puts x.size
 puts x.length
 ```
@@ -33,7 +33,7 @@ puts x.length
 <h1></h1>
 
 **empty? methodu:**
-* stringlerin bos olup olmadıgını kontrol eder.
+* stringlerin boş olup olmadığını kontrol eder.
 ```ruby
 x = ""
 puts x.empty?
@@ -44,7 +44,7 @@ true
 <h1></h1>
 
 **include? methodu:**
-* stringin icinde verilen parametrenin olup olmadigini kontrol eder.
+* stringin içinde verilen parametrenin olup olmadığını kontrol eder.
 ```ruby
 x = "ruby"
 puts x.include? "y"
@@ -54,8 +54,8 @@ true
 ```
 <h1></h1>
 
-**start_with?  ve end_with? methodlari:**
-* stringin baslangic ve sondan karakterlerini kontrol etmek icin kullanilir.
+**start_with?  ve end_with? methodları:**
+* stringin başlangıç ve sondan karakterlerini kontrol etmek için kullanılır.
 ```ruby
 x = "araba"
 puts x.start_with? "a"
@@ -67,8 +67,8 @@ true
 ```
 <h1></h1>
 
-**strip,rstrip ve lstrip methodlari:**
-* stringlerin iclerinden karakterleri silmek icin kullanilirlar.
+**strip,rstrip ve lstrip methodları:**
+* stringlerin içlerinden karakterleri silmek için kullanılırlar.
 ```ruby
 x = "  merhaba  "
 puts x.strip
@@ -82,25 +82,25 @@ merhaba
 ```
 <h1></h1>
 
-**upcase,downcase,capitalize ve swapcase methodlari:**
-* stringlerin buyuk,kucuk,kucukten buyuge veya buyukten kucuge cevirilmesi icin kullanilir.
+**upcase,downcase,capitalize ve swapcase methodları:**
+* stringlerin büyük,küçük,küçükten büyüğe veya büyükten küçüğe çevirilmesi için kullanılır.
 ```ruby
-x = "bugun hava cok sicak"
+x = "bugün hava çok sıcak"
 puts x.upcase
 puts x.downcase
 puts x.capitalize
 puts x.swapcase
 ```
 ```text
-BUGUN HAVA COK SICAK
-bugun hava cok sicak
-Bugun hava cok sicak
-bUGUN HAVA COK SICAK
+BUGÜN HAVA ÇOK SICAK
+bugün hava çok sıcak
+Bugün hava çok sıcak
+bUGÜN HAVA ÇOK SICAK
 ```
 <h1></h1>
 
 **count methodu:**
-* verdigimiz karakterden string icerisinde kac tane var oldugunu kontrol eder.
+* verdiğimiz karakterden string içerisinde kaç tane var olduğunu kontrol eder.
 ```ruby
 x = "merhaba"
 puts x.count "a"
@@ -116,7 +116,7 @@ puts x.count "b"
 <h1></h1>
 
 **index methodu:**
-* stringin parametre olarak verilen karakterinin stringin index numarasini verir.
+* stringin parametre olarak verilen karakterinin stringin index numarasını verir.
 ```ruby
 x = "kitap"
 puts x.index("k")
@@ -128,8 +128,8 @@ puts x.index("a")
 ```
 <h1></h1>
 
-**delete_suffix ve delete_prefix methodlari:**
-* stringin baslangic veya sonundaki karakterleri silmek icin kullanilir.
+**delete_suffix ve delete_prefix methodları:**
+* stringin başlangıç veya sonundaki karakterleri silmek için kullanılır.
 ```ruby
 x = "kitap"
 puts x.delete_suffix("ap")
@@ -143,23 +143,23 @@ tap
 
 
 **String Interpolation:**
-* stringlerin icerisinde degisiklik yapmak icin kullanilir.
+* stringlerin içerisinde değişiklik yapmak için kullanılır.
 ```ruby
-sali = "sali"
+salı = "salı"
 pazar = "pazar"
-puts "bugun gunlerden #{sali}"
-puts "bugun gunlerden #{pazar}"
+puts "bugün günlerden #{salı}"
+puts "bugün günlerden #{pazar}"
 puts "#{1+1}"
 ```
 ```ruby
-bugun gunlerden sali
-bugun gunlerden pazar
+bugün günlerden salı
+bugün günlerden pazar
 2
 ```
 <h1></h1>
 
 **split methodu:**
-* stringleri verdigimiz degere gore parcalayarak arraye cevirir.
+* stringleri verdiğimiz değere göre parçalayarak arraye çevirir.
 ```ruby
 x = "merhaba"
 y = "a,b,c,d"
@@ -174,7 +174,7 @@ p y.split(",")
 
 **join methodu:**
 
-* arraylerin degerlerinin aralarina verdigimiz degeri koyarak stringe cevirir.
+* arraylerin değerlerinin aralarına verdiğimiz değeri koyarak stringe çevirir.
 ```ruby
 x = ["a","b","c","d"]
 y = ["a","b","c","d"]
@@ -188,14 +188,14 @@ a,b,c,d
 
 <h1></h1>
 
-**to_s ve to_i methodlari:**
-* `to_s` verdigimiz degeir stringe cevirir.
-* `to_i` verdigimiz degeir integere cevirir.
-* daha farkli bircok `to_` methodu vardir https://docs.ruby-lang.org/en/3.0.0/doc/implicit_conversion_rdoc.html buradan inceleyebilirsiniz.
+**to_s ve to_i methodları:**
+* `to_s` verdiğimiz degeir stringe çevirir.
+* `to_i` verdiğimiz degeir integere çevirir.
+* daha farklı birçok `to_` methodu vardır https://docs.ruby-lang.org/en/3.0.0/doc/implicit_conversion_rdoc.html buradan inceleyebilirsiniz.
 ```ruby
 x = "5"
 y = "3"
-puts x.to_i + y.to_i # integer'a cevrilip toplama yapar.
+puts x.to_i + y.to_i # integer'a çevrilip toplama yapar.
 puts x.to_s + y.to_s #string halinde toplama yapar.
 ```
 ```ruby
@@ -206,54 +206,56 @@ puts x.to_s + y.to_s #string halinde toplama yapar.
 <h1></h1>
 
 **gsub methodu:**
-* stringin icerisinde verdigimiz parametreye gore degisiklik yapar.
-* regular expression yapmak icin de kullanilabilir.
+* stringin içerisinde verdiğimiz parametreye göre değişiklik yapar.
+* regular expression yapmak için de kullanılabilir.
 ```ruby
-x = "ben kahve icerim"
-puts x.gsub("kahve","cay")
+x = "ben kahve içerim"
+puts x.gsub("kahve","çay")
 ```
 ```ruby
-ben cay icerim
+ben çay içerim
 ```
 <h1></h1>
+
 ```ruby
-x = "ben kahve icerim"
+x = "ben kahve içerim"
 puts x.gsub(/[aeou]/,"i")
 ```
 ```ruby
-bin kihvi icirim
+bin kihvi içirim
 ```
-string incerisindeki a,e,o,u harflerini i ile degistirdik.
+stringin içerisindeki a,e,o,u harflerini i ile değiştirdik.
 
 
 <h1></h1>
 
-**stringe deger ekleme:**
-* stringe deger eklemek icin kullanilan `<<` operatoru kullanilir ya da `+=`.
+**stringe değer ekleme:**
+* stringe değer eklemek için kullanılan `<<` operatörü kullanılır ya da `+=`.
+
 ```ruby
 x = "merhaba"
-x << " dunya"
+x << " dünya"
 puts x
 y = "selam"
-y += " dunya"
+y += " dünya"
 puts y
 ```
 ```ruby
-merhaba dunya
-selam dunya
+merhaba dünya
+selam dünya
 ```
 <h1></h1>
 
 
 **Substrings:**
-* stringleri bolmek veya parcalamak icin kullanilir.
+* stringleri bölmek veya parçalamak için kullanılır.
 ```ruby
 x = "okula araba ile gidiyorum"
 puts x[0] # 0. indexteki karakteri verir.
-puts x[0,5] # 0 ile 5 arasindaki karakterleri verir.
-puts x[0..6] # range yapi kullanarak 0.index ile 5.index(5 dahil) arasindaki karakterleri verir.
+puts x[0,5] # 0 ile 5 arasındaki karakterleri verir.
+puts x[0..6] # range yapı kullanarak 0.index ile 5.index(5 dahil) arasındaki karakterleri verir.
 puts x[-1] # son karakteri verir.
-puts x[-5,5] # -5 ile 5 arasindaki karakterleri verir.
+puts x[-5,5] # -5 ile 5 arasındaki karakterleri verir.
 ```
 ```ruby
 o

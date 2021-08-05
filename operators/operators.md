@@ -375,7 +375,7 @@ false
 puts x <=> y
 ```
 ```ruby
--1
+1
 ```
 ```ruby
 r = "ruby"

@@ -251,8 +251,6 @@ puts x
 32
 ```
 
-<h1><h1>
-
 <h3>Kıyaslama operatörleri</h3>
 
 * iki  değeri  birbirleri ile kıyaslamak için kullanılır.
@@ -411,7 +409,6 @@ puts x > y
 ```ruby
 false
 ```
-
 
 <h3>Mantıksal kıyaslama operatörleri</h3>
 

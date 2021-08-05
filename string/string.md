@@ -226,8 +226,8 @@ bin kihvi içirim
 ```
 stringin içerisindeki a,e,o,u harflerini i ile değiştirdik.
 
-
 <h1></h1>
+
 
 **stringe değer ekleme:**
 * stringe değer eklemek için kullanılan `<<` operatörü kullanılır ya da `+=`.

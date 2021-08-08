@@ -94,7 +94,7 @@ puts 2.abs
 
 **gcd ve lcm**
 
-* matematikteki EBOB (`gcd`) ve EKOK (``) islevleriyle ayni islevi yapar.
+* matematikteki EBOB (`gcd`) ve EKOK (`lcm`) islevleriyle ayni islevi yapar.
 
 ```ruby
 puts 2.gcd(2)

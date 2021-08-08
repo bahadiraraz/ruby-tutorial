@@ -52,7 +52,7 @@
 </table>
 
 <b>örnekler ile Aritmetik Operatörler:</b>
-<hr width="100%" color="#7026E3" size="5">
+<hr width="33%" color="#7026E3" size="5">
 
 ```ruby
 #float olarak tanımladık çünkü % ve / operatörleri inteğer değerler üzerinde yuvarlama yapar.

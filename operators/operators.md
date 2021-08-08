@@ -61,9 +61,6 @@ x = 5.0
 y = 3.0
 ```
 
-
-
-
 ```ruby
 puts x + y
 ```
@@ -227,7 +224,6 @@ puts x
 3
 ```
 
-
 ```ruby
 x = 18
 ```
@@ -335,17 +331,12 @@ puts x != y
 true
 ```
 
-
-
-
 ```ruby
 puts x > y
 ```
 ```ruby
 true
 ```
-
-
 
 ```ruby
 puts x < y
@@ -354,8 +345,6 @@ puts x < y
 false
 ```
 
-
-
 ```ruby
 puts x >= y
 ```
@@ -363,20 +352,21 @@ puts x >= y
 true
 ```
 
-
-
 ```ruby
 puts x <= y
 ```
 ```ruby
 false
 ```
+
 ```ruby
 puts x <=> y
 ```
+
 ```ruby
 1
 ```
+
 ```ruby
 r = "ruby"
 puts String === "ruby"
@@ -474,5 +464,3 @@ puts !(x < z)
 false
 false
 ```
-
-

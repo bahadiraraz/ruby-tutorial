@@ -119,4 +119,3 @@ p b
 [8, 2.0] # 8 tane tam ve 2 kalan veriyor.
 #kullanisli bir method
 ```
-

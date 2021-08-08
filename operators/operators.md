@@ -69,6 +69,7 @@ puts x + y
 8.0
 ```
 
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x - y
@@ -78,6 +79,7 @@ puts x - y
 2.0
 ```
 
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x * y
@@ -87,7 +89,7 @@ puts x * y
 15.0
 ```
 
-
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x / y
@@ -97,6 +99,7 @@ puts x / y
 1.6666666666666667
 ```
 
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x % y
@@ -106,7 +109,7 @@ puts x % y
 2.0
 ```
 
-
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x ** y
@@ -115,7 +118,6 @@ puts x ** y
 ```ruby
 125
 ```
-
 
 <h1><h1>
 
@@ -174,7 +176,7 @@ puts x ** y
 </table>
 
 <b> örnekler ile atama operatörleri: </b>
-<hr width="100%" color="#7026E3" size="5">
+<hr width="31%" color="#7026E3" size="5">
 
 ```ruby
 x = 12
@@ -187,7 +189,7 @@ puts x
 17
 ```
 
-
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 x = 16
@@ -199,7 +201,7 @@ puts x
 ```ruby
 11
 ```
-
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 x = 13
@@ -212,6 +214,7 @@ puts x
 75
 ```
 
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 x = 15
@@ -223,6 +226,7 @@ puts x
 ```ruby
 3
 ```
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 x = 18
@@ -235,6 +239,7 @@ puts x
 3
 ```
 
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 x = 2
@@ -310,7 +315,7 @@ puts x
 </table>
 
 <b>örnekler ile kıyaslama operatörleri:</b>
-<hr width="100%" color="#7026E3" size="5">
+<hr width="35%" color="#7026E3" size="5">
 
 ```ruby
 x = 12
@@ -323,6 +328,7 @@ puts x == y
 false
 ```
 
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x != y
@@ -330,6 +336,7 @@ puts x != y
 ```ruby
 true
 ```
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x > y
@@ -337,6 +344,7 @@ puts x > y
 ```ruby
 true
 ```
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x < y
@@ -344,6 +352,7 @@ puts x < y
 ```ruby
 false
 ```
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x >= y
@@ -352,12 +361,16 @@ puts x >= y
 true
 ```
 
+<hr width="100%" color="#7026E3" size="5">
+
+
 ```ruby
 puts x <= y
 ```
 ```ruby
 false
 ```
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x <=> y
@@ -366,6 +379,7 @@ puts x <=> y
 ```ruby
 1
 ```
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 r = "ruby"
@@ -382,15 +396,15 @@ x = "abc"
 y = "abd"
 ```
 
-
-
 ```ruby
 puts x == "abc"
 ```
+
 ```ruby
 true
 ```
 
+<hr width="100%" color="#7026E3" size="5">
 
 ```ruby
 puts x > y
@@ -434,6 +448,7 @@ false
 </table>
 
 <b>örnekler ile mantıksal kıyaslama operatörleri:</b>
+<hr width="45%" color="#7026E3" size="5">
 
 ```ruby
 x = 5
@@ -448,6 +463,8 @@ puts y > x && x < z
 true
 true
 ```
+<hr width="100%" color="#7026E3" size="5">
+
 ```ruby
 puts y > x or x > z
 puts y > x || x > z
@@ -456,6 +473,8 @@ puts y > x || x > z
 true
 true
 ```
+<hr width="100%" color="#7026E3" size="5">
+
 ```ruby
 puts not(x < z)
 puts !(x < z)

@@ -1,11 +1,11 @@
-## float
+## Float
 
-* floatlar rubydeki ondalikli sayilari temsil eder.
-* floatlar ayni integerler gibi matematiksel hesaplamarda kullanilabilir.
-* bu yazida floatlarin en genel methodlarini ve kullanimlarini gosterecegim.
-* bircok integer metodlari float metodlariyla ayni olarak kullanilabilir.
+* Floatlar rubydeki ondalıklı sayıları temsil eder.
+* Floatlar aynı integerlar gibi matematiksel hesaplamarda kullanilabilir.
+* Bu yazıda floatların en genel metodlarını ve kullanımlarını göstereceğim.
+* Biröok integer metodları float metodlarıyla aynı olarak kullanilabilir.
 
-<h3>ornekler:</h3>
+<h3>Örnekler:</h3>
 
 ```ruby
 t = 1.0
@@ -14,19 +14,19 @@ v = t + u
 puts v
 ```
 ```ruby
-6.5 # gosterilen sonuc float
+6.5 # Gösterilen sonuç float
 ```
  
 <hr width="100%" color="#7026E3" size="5">
 
-<h3>float methodlari:</h3>
+<h3>Float Metodları:</h3>
 
-* bircok float methodu vardir en cok kullanilanlari burada anlatacagim.
+* Birçok float metodu vardır en çok kullanılanları burada anlatacağım.
 
 
 **to_f**
 
-* objeleri float degerlere cevirmek icin kullanilir.
+* Objeleri float değerlere çevirmek için kullanılır.
 
 ```ruby
 t = 1
@@ -38,7 +38,7 @@ puts t.to_f
 
 **to_r**
 
-* sayilari kesirli sayiya cevirmek icin kullanilir.
+* Sayıları kesirli sayıya çevirmek için kullanılır.
 ```ruby
 g = 12
 h = 0.25
@@ -52,7 +52,7 @@ puts h.to_r
 
 **round**
 
-* floatlarin basamaklarini yuvarlamak icin kullanilir.
+* Floatların basamaklarını yuvarlamak için kullanılır.
 
 ```ruby
 t = 1.1
@@ -64,13 +64,13 @@ puts z.round(-4)
 ```
 ```ruby
 1 #varsayilan degeri 0 dir
-12.23 # round yanina aldigi parametreye gore yuvarlama yapar
-30000 # sayinin noktadan onceki kisimlari icin negatif degerler kullanilir.
+12.23 # round yanına aldığı parametreye göre yuvarlama yapar
+30000 # sayının noktadan önceki kısımları için negatif değerler kullanılır.
 ```
 
 **ceil**
 
-* floatlarin basamaklari yukari yuvarlamak icin kullanilir.
+* Floatların basamaklarını yukarı yuvarlamak için kullanılır.
 
 ```ruby
 x = 1.1
@@ -82,13 +82,13 @@ puts z.ceil(-2)
 ```
 ```ruby
 2 # varsayilan degeri 0 dir
-12.24 # ceil yanina aldigi parametreye gore yuvarlama yapar
-34600 # sayinin noktadan onceki kisimlari icin negatif degerler kullanilir.
+12.24 # ceil yanına aldığı parametreye göre yuvarlama yapar
+34600 # sayının noktadan önceki kısımları için negatif değerler kullanılır.
 ```
 
 **floor**
 
-* floatlarin basamaklari asagi yuvarlamak icin kullanilir.
+* Floatların basamaklarını aşağı yuvarlamak için kullanılır.
 
 ```ruby
 x = 1.1
@@ -100,13 +100,13 @@ puts z.floor(-2)
 ```
 ```ruby
 1 # varsayilan degeri 0 dir
-12.23 # floor yanina aldigi parametreye gore yuvarlama yapar
-34500 # sayinin noktadan onceki kisimlari icin negatif degerler kullanilir.
+12.23 # floor yanına aldığı parametreye göre yuvarlama yapar
+34500 # sayının noktadan önceki kısımları için negatif değerler kullanılır.
 ```
 
 **divmod**
 
-* sayilarin tam bolumlerini ve kalanlarini array halinde dondurur.
+* Sayıların tam bölümlerini ve kalanlarını array halinde döndürür.
 
 ```ruby
 a = 36.0.divmod(6)
@@ -117,5 +117,5 @@ p b
 ```ruby
 [6, 0.0] # 6 tane tam ve 0 kalan veriyor.
 [8, 2.0] # 8 tane tam ve 2 kalan veriyor.
-#kullanisli bir method
+#kullanışlı bir metod
 ```

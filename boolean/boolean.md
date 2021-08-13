@@ -1,10 +1,10 @@
 ## Booleanlar
 
-* booleanlar mantıksal bir ifadenin doğru (`true`) veya yanlış (`false`) olduğunu kontrol eder.
+* Booleanlar mantıksal bir ifadenin doğru (`true`) veya yanlış (`false`) olduğunu kontrol eder.
 
 * Boolean değerleri `true` ve `false` dir.
 
-* ruby programla dilinde `false` ve `nil` değerleri haricinde her şey `true` olarak kabul edilir.
+* Ruby programla dilinde `false` ve `nil` değerleri haricinde her şey `true` olarak kabul edilir.
 
 <hr></hr>
 <h3>örnekler:</h3>
@@ -16,7 +16,7 @@ puts 1 == 2
 ```ruby
 true
 false
-#iki değer arasında mantıksal kıyaslama yaptık
+#İki değer arasında mantıksal kıyaslama yaptık.
 ```
 ```ruby
 puts "string".is_a? String
@@ -55,9 +55,9 @@ ama b ve c değerleri false döndüğü için if koşuluna girmedi.
 ```
 
 <hr></hr>
-<h3>mantıksal boolean kıyaslamaları</h3>
+<h3>Mantıksal Boolean Kıyaslamaları</h3>
 
-* boolenlerin bazı kıyaslama methodları vardır.
+* Boolenlerin bazı kıyaslama methodları vardır.
 
 * `&`, `|`, `^` gibi sembolleri kullanarak mantıksal boolean kıyaslamalar yapabiliriz.
 

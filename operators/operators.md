@@ -1,10 +1,10 @@
 ## Operators(Operatörler)
 
-* operatörler değerler üzerinde işlemler yapmamızı sağlarlar.
+* Operatörler değerler üzerinde işlemler yapmamızı sağlarlar.
 
 <h3>Ruby Aritmetik Operatörleri</h3>
 
-* genel matematiksel işlemlerin yapılmasında kullanılırlar.
+* Genel matematiksel işlemlerin yapılmasında kullanılırlar.
 
 <table style="width:100%">
 <tr>
@@ -123,7 +123,7 @@ puts x ** y
 
 <h3>Ruby Atama operatörleri</h3>
 
-* değişkenlere değer atamak için kullanılırlar.
+* Değişkenlere değer atamak için kullanılırlar.
 
 
 <table style="width:100%">

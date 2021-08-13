@@ -1,9 +1,9 @@
 ## Integer
 
-* integerlar ruby deki tam sayıları ifade eder.
-* bu yazida integerların kullanımlarini ve metotlarını göreceğiz.
+* Integerlar Ruby deki tam sayıları ifade eder.
+* Bu yazıda integerların kullanımlarını ve metotlarını göreceğiz.
 
-<h3>ornekler:</h3>
+<h3>Örnekler::</h3>
 <hr width="100%" color="#7026E3" size="5">
 
 ```ruby
@@ -16,7 +16,7 @@ puts t + x
 ```ruby
 3
 no implicit conversion of Integer into String (TypeError)
-#integerler kendi aralarinda islem yapabilirler ama stringlerle beraber matematiksel hesaplar yapamazlar.
+#Integerlar kendi aralarında işlem yapabilirler ama stringlerle beraber matematiksel hesaplar yapamazlar.
 #veri donusumu yaparak bu sorunu cozebiliriz.
 ```
 ```ruby
@@ -24,9 +24,9 @@ puts t.to_i + x
 ```
 ```ruby
 2
-#to_i ile stringin integer formatina cevirebiliriz.
+#to_i ile string bir objeyi integer bir objeye çevirebiliriz.
 ```
-* bir objenin integer olup olmadigini kontrol etmek icin `is_integer?` ya da `is_a? Integer` metodunu kullanabiliriz.
+* Bir objenin integer olup olmadigini kontrol etmek icin `is_integer?` ya da `is_a? Integer` metodunu kullanabiliriz.
 ```ruby
 puts 4.is_a? Integer
 puts 4.integer?
@@ -36,16 +36,16 @@ true
 true
 ```
 
-<h3>integer methodlar:</h3>
+<h3>Integer Metodlar:</h3>
 <hr width="100%" color="#7026E3" size="5">
 
-* integerlarin bircok methodu vardir en kullanisli methodlarindan biraz ornekler verelim.
+* Integerların birçok metodu vardır en kullanışlı metodlarından biraz örnekler verelim.
 
 
 **to_s ve to_i**
 
-* to_s methodu integerlari string formatina cevirir.
-* to_i methodu stringleri integer formatina cevirir.
+* to_s metodu integerlari string formatına çevirir.
+* to_i metodu stringleri integer formatına çevirir.
 
 ```ruby
 y = "2"
@@ -54,15 +54,15 @@ puts y.to_i
 puts z.to_s
 ```
 ```ruby
-2#artik bu bir string degil integer
-1#artik bu bir integer degil string
+2#artık bu bir string değil integer
+1#artık bu bir integer değil string
 ```
 
 <h1></h1>
 
 **even? ve odd?**
 
-* integerlarin tek ya da cift sayida olup olmadigini kontrol etmek icin `even?` ve `odd?` metodunu kullanabiliriz.
+* Integerların tek ya da çift sayıda olup olmadığını kontrol etmek icin `even?` ve `odd?` metodunu kullanabiliriz.
  
 ```ruby
 puts 2.even?
@@ -79,7 +79,7 @@ true
 
 **abs**
 
-* matematikteki mutlak deger ile ayni islevi yapar.
+* Matematikteki mutlak değer ile aynı işlevi yapar.
 
 ```ruby
 puts -2.abs
@@ -94,7 +94,7 @@ puts 2.abs
 
 **gcd ve lcm**
 
-* matematikteki EBOB (`gcd`) ve EKOK (`lcm`) islevleriyle ayni islevi yapar.
+* Matematikteki EBOB (`gcd`) ve EKOK (`lcm`) işlevleriyle aynı işlevi yapar.
 
 ```ruby
 puts 2.gcd(2)
@@ -113,7 +113,7 @@ puts 35.lcm(7)
 
 **sqrt**
 
-* matematikteki kare kok ile ayni islevi yapar.
+* Matematikteki kare kök ile aynı işlevi yapar.
 
 ```ruby
 puts 2.sqrt

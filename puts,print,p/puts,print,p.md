@@ -1,16 +1,16 @@
 ## puts, print, p özellikleri
 
-* rubyde ekranaya yazdırma işlemi için birden fazla fonksiyon bulunur.
-* bunların hepsi kendi aralarında farklı özelliklere sahiptir.
+* Rubyde ekrana yazı yazdırma işlemi için birden fazla fonksiyon bulunur.
+* Bunların hepsi kendi aralarında farklı özelliklere sahiptir.
 
 <hr></hr>
 
 <h3>puts</h3>
 
-* kullanıcının yazdığı değerleri ekrana yazdırır.
-* değer olarak `nil` döndürür.
-* otomatik olarak argümanların sonuna `\n` karakteri ekler.
-* yaptığı şey aslında her değere `to_s` metodunu çalıştırır.
+* Kullanıcının yazdığı değerleri ekrana yazdırır.
+* Değer olarak `nil` döndürür.
+* Otomatik olarak argümanların sonuna `\n` karakteri ekler.
+* Yaptığı şey aslında her değere `to_s` metodunu çalıştırır.
 
 <b>örnekler:</b>
 

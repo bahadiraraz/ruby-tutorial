@@ -1,14 +1,14 @@
-## string
+## String
 
-* stringler bir karakter dizisi olarak tanımlanır.
-* stringlerin birçok metodu vardır.
-* tanımlamak için ya `"string"` ya da `'string'` kullanılır.
-* uzun stringler için `"""string"""` veya `'''string'''` kullanılır.
+* Stringler bir karakter dizisi olarak tanımlanır.
+* Stringlerin birçok metodu vardır.
+* Tanımlamak için ya `"string"` ya da `'string'` kullanılır.
+* Uzun stringler için `"""string"""` veya `'''string'''` kullanılır.
 
-<h3>örnekler:</h3>
+<h3>Örnekler:</h3>
 
 **is_a? methodu:**
-* objelerin türünü kontrol etmek için kullanılır.
+* Objelerin türünü kontrol etmek için kullanılır.
 ```ruby
 x = "merhaba"
 puts x.is_a? String
@@ -20,7 +20,7 @@ is_a? metodu ile string olup olmadığını sorguladık.
 <h1></h1>
 
 **size ve length methodu:**
-* stringlerin uzunluğunu gösterir.
+* Stringlerin uzunluğunu gösterir.
 ```ruby
 x = "bahadır"
 puts x.size
@@ -33,7 +33,7 @@ puts x.length
 <h1></h1>
 
 **empty? methodu:**
-* stringlerin boş olup olmadığını kontrol eder.
+* Stringlerin boş olup olmadığını kontrol eder.
 ```ruby
 x = ""
 puts x.empty?
@@ -44,7 +44,7 @@ true
 <h1></h1>
 
 **include? methodu:**
-* stringin içinde verilen parametrenin olup olmadığını kontrol eder.
+* Stringin içinde verilen parametrenin olup olmadığını kontrol eder.
 ```ruby
 x = "ruby"
 puts x.include? "y"
@@ -55,7 +55,7 @@ true
 <h1></h1>
 
 **start_with?  ve end_with? methodları:**
-* stringin başlangıç ve sondan karakterlerini kontrol etmek için kullanılır.
+* Stringin başlangıç ve sondan karakterlerini kontrol etmek için kullanılır.
 ```ruby
 x = "araba"
 puts x.start_with? "a"
@@ -68,7 +68,7 @@ true
 <h1></h1>
 
 **strip,rstrip ve lstrip methodları:**
-* stringlerin içlerinden karakterleri silmek için kullanılırlar.
+* Stringlerin içlerinden karakterleri silmek için kullanılırlar.
 ```ruby
 x = "  merhaba  "
 puts x.strip
@@ -83,7 +83,7 @@ merhaba
 <h1></h1>
 
 **upcase,downcase,capitalize ve swapcase methodları:**
-* stringlerin büyük,küçük,küçükten büyüğe veya büyükten küçüğe çevirilmesi için kullanılır.
+* Stringlerin büyük,küçük,küçükten büyüğe veya büyükten küçüğe çevirilmesi için kullanılır.
 ```ruby
 x = "bugün hava çok sıcak"
 puts x.upcase
@@ -100,7 +100,7 @@ bUGÜN HAVA ÇOK SICAK
 <h1></h1>
 
 **count methodu:**
-* verdiğimiz karakterden string içerisinde kaç tane var olduğunu kontrol eder.
+* Verdiğimiz karakterden string içerisinde kaç tane var olduğunu kontrol eder.
 ```ruby
 x = "merhaba"
 puts x.count "a"
@@ -116,7 +116,7 @@ puts x.count "b"
 <h1></h1>
 
 **index methodu:**
-* stringin parametre olarak verilen karakterinin stringin index numarasını verir.
+* Stringin parametre olarak verilen karakterinin stringin index numarasını verir.
 ```ruby
 x = "kitap"
 puts x.index("k")
@@ -129,7 +129,7 @@ puts x.index("a")
 <h1></h1>
 
 **delete_suffix ve delete_prefix methodları:**
-* stringin başlangıç veya sonundaki karakterleri silmek için kullanılır.
+* Stringin başlangıç veya sonundaki karakterleri silmek için kullanılır.
 ```ruby
 x = "kitap"
 puts x.delete_suffix("ap")
@@ -143,7 +143,7 @@ tap
 
 
 **String Interpolation:**
-* stringlerin içerisinde değişiklik yapmak için kullanılır.
+* Stringlerin içerisinde değişiklik yapmak için kullanılır.
 ```ruby
 salı = "salı"
 pazar = "pazar"
@@ -159,7 +159,7 @@ bugün günlerden pazar
 <h1></h1>
 
 **split methodu:**
-* stringleri verdiğimiz değere göre parçalayarak arraye çevirir.
+* Stringleri verdiğimiz değere göre parçalayarak arraye çevirir.
 ```ruby
 x = "merhaba"
 y = "a,b,c,d"
@@ -174,7 +174,7 @@ p y.split(",")
 
 **join methodu:**
 
-* arraylerin değerlerinin aralarına verdiğimiz değeri koyarak stringe çevirir.
+* Arraylerin değerlerinin aralarına verdiğimiz değeri koyarak stringe çevirir.
 ```ruby
 x = ["a","b","c","d"]
 y = ["a","b","c","d"]
@@ -191,7 +191,7 @@ a,b,c,d
 **to_s ve to_i methodları:**
 * `to_s` verdiğimiz degeir stringe çevirir.
 * `to_i` verdiğimiz degeir integere çevirir.
-* daha farklı birçok `to_` methodu vardır https://docs.ruby-lang.org/en/3.0.0/doc/implicit_conversion_rdoc.html buradan inceleyebilirsiniz.
+* Daha farklı birçok `to_` methodu vardır https://docs.ruby-lang.org/en/3.0.0/doc/implicit_conversion_rdoc.html buradan inceleyebilirsiniz.
 ```ruby
 x = "5"
 y = "3"
@@ -206,8 +206,8 @@ puts x.to_s + y.to_s #string halinde toplama yapar.
 <h1></h1>
 
 **gsub methodu:**
-* stringin içerisinde verdiğimiz parametreye göre değişiklik yapar.
-* regular expression yapmak için de kullanılabilir.
+* Stringin içerisinde verdiğimiz parametreye göre değişiklik yapar.
+* Regular expression yapmak için de kullanılabilir.
 ```ruby
 x = "ben kahve içerim"
 puts x.gsub("kahve","çay")
@@ -230,7 +230,7 @@ stringin içerisindeki a,e,o,u harflerini i ile değiştirdik.
 
 
 **stringe değer ekleme:**
-* stringe değer eklemek için kullanılan `<<` operatörü kullanılır ya da `+=`.
+* Stringe değer eklemek için kullanılan `<<` operatörü kullanılır ya da `+=`.
 
 ```ruby
 x = "merhaba"
@@ -248,7 +248,7 @@ selam dünya
 
 
 **Substrings:**
-* stringleri bölmek veya parçalamak için kullanılır.
+* Stringleri bölmek veya parçalamak için kullanılır.
 ```ruby
 x = "okula araba ile gidiyorum"
 puts x[0] # 0. indexteki karakteri verir.

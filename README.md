@@ -11,5 +11,5 @@
 3. [Operatörler](#paragraph1)
     * [operatorler](https://github.com/BAHADIR54/ruby-tutorial/tree/main/operators)
 4. [Diziler](#paragraph1)
-    * [Diziler](https://github.com/WormerKing/ruby-tutorial/tree/main/Diziler/diziler)
+    * [Diziler](https://github.com/BAHADIR54/ruby-tutorial/tree/main/Diziler)
 

@@ -97,4 +97,3 @@ arr.first #=> 1
 arr.last #=> 5
 ```
 
-<h1>Şimdilik bukadar yazabildim.</h1>

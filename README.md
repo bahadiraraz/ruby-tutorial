@@ -1,6 +1,7 @@
 # Ruby Türkçe Dokümantasyon
  
 ![img](https://github.com/myygunduz/ruby-tutorial/blob/main/ReadMeBahadır.png)
+![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
 <h3 align='center'> Paylaş </h3>
 
 <table align='center'>

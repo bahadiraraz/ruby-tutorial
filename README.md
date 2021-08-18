@@ -5,16 +5,16 @@
 
  # İçerik
 1. [Yazdırma Fonksiyonları](#paragraph1)
-    * [puts,print,pt](https://github.com/BAHADIR54/ruby-tutorial/tree/main/puts%2Cprint%2Cp)
+    * [puts,print,pt](https://github.com/BAHADIR54/ruby-tutorial/blob/main/puts%2Cprint%2Cp/puts%2Cprint%2Cp.md)
 2. [Veri Yapıları](#paragraph1)
-    * [string](https://github.com/BAHADIR54/ruby-tutorial/tree/main/string)
-    * [integer](https://github.com/BAHADIR54/ruby-tutorial/tree/main/Numeric/integer)
-    * [float](https://github.com/BAHADIR54/ruby-tutorial/tree/main/Numeric/float)
-    * [boolean](https://github.com/BAHADIR54/ruby-tutorial/tree/main/boolean)
+    * [string](https://github.com/BAHADIR54/ruby-tutorial/blob/main/string/string.md)
+    * [integer](https://github.com/BAHADIR54/ruby-tutorial/blob/main/Numeric/integer/integer.md)
+    * [float](https://github.com/BAHADIR54/ruby-tutorial/blob/main/Numeric/float/float.md)
+    * [boolean](https://github.com/BAHADIR54/ruby-tutorial/blob/main/boolean/boolean.md)
 3. [Operatörler](#paragraph1)
-    * [operatorler](https://github.com/BAHADIR54/ruby-tutorial/tree/main/operators)
+    * [operatorler](https://github.com/BAHADIR54/ruby-tutorial/blob/main/operators/operators.md)
 4. [Diziler](#paragraph1)
-    * [Diziler](https://github.com/BAHADIR54/ruby-tutorial/tree/main/Diziler)
+    * [Diziler](https://github.com/BAHADIR54/ruby-tutorial/blob/main/Diziler/diziler.md)
 
 <h3 align='center'> Paylaş </h3>
 

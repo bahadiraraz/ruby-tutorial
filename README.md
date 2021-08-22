@@ -11,6 +11,7 @@
     * [integer](https://github.com/BAHADIR54/ruby-tutorial/blob/main/Numeric/integer/integer.md)
     * [float](https://github.com/BAHADIR54/ruby-tutorial/blob/main/Numeric/float/float.md)
     * [boolean](https://github.com/BAHADIR54/ruby-tutorial/blob/main/boolean/boolean.md)
+    * [hashes](https://github.com/bahadiraraz/ruby-tutorial/blob/main/hashes/hashes.md)
 3. [Operatörler](#paragraph1)
     * [operatorler](https://github.com/BAHADIR54/ruby-tutorial/blob/main/operators/operators.md)
 4. [Diziler](#paragraph1)

@@ -3,7 +3,7 @@
 * Floatlar rubydeki ondalıklı sayıları temsil eder.
 * Floatlar aynı integerlar gibi matematiksel hesaplamarda kullanilabilir.
 * Bu yazıda floatların en genel metodlarını ve kullanımlarını göstereceğim.
-* Biröok integer metodları float metodlarıyla aynı olarak kullanilabilir.
+* Bircok integer metodları float metodlarıyla aynı olarak kullanilabilir.
 
 <h3>Örnekler:</h3>
 

@@ -1,47 +1,47 @@
 ## Hashes
 
-* hashler iclerinde bir anahtar degere karsilik olarak bir deger tutan veri yapilaridir.
-* anahtar deger olarak neredeyse herhangi bir veri yapisi kullanilabilir.
-* pythondaki sozluk yapilarina benzerdirler.
+* Hashler içlerinde bir anahtar değere karşılık olarak bir değer tutan veri yapılarıdır.
+* Anahtar değer olarak neredeyse herhangi bir veri yapısı kullanılabilir.
+* Python'daki sözlük yapılarına benzerdirler.
 
 
 <h3>Örnekler:</h3>
 
 <h5>Boş hash oluşturma:</h5>
 
-* `new` methodu kullanrak hash olusturabiliriz.
+* `new` methodu kullanrak hash oluşturabiliriz.
 
 ```ruby
 hashler = Hash.new # hashler isminde bir hash oluşturduk.
-hashler[:anahtar] = "deger" # ahantar degere karsilik bir deger atadik.
-puts hashler # hashi ekrana yazdirdik.
-puts hashler[:anahtar] # degeri yazdirdik.
+hashler[:anahtar] = "deger" # anahtar değere karşılık bir değer atadık.
+puts hashler # hashi ekrana yazdırdık.
+puts hashler[:anahtar] # değeri yazdırdık.
 ```
 ```ruby
-{:anahtar=>"deger"} # => isareti hash roketi olarak adlandirilir o anaharin o degere karsilik oldugu anlamina gelir.
+{:anahtar=>"deger"} # => işareti hash roketi olarak adlandırılır o anahtarın o değere karşılık olduğu anlamına gelir.
 deger
 ```
 
-* `[]` metodu kullanarak hash olusturulabilir.
+* `[]` metodu kullanarak hash oluşturabiliriz.
 
 ```ruby
 hashler2 = Hash[] # hashler2 isminde bir hash oluşturduk.
-hashler2[:anahtar] = "deger" # anahtar degere karsilik bir deger atadik.
-puts hashler2 # hashi ekrana yazdirdik.
-puts hashler2[:anahtar] # degeri yazdirdik.
+hashler2[:anahtar] = "deger" # anahtar değere karşılık bir değer atadık.
+puts hashler2 # hashi ekrana yazdırdık.
+puts hashler2[:anahtar] # değeri yazdırdık.
 ```
 ```ruby
 {:anahtar=>"deger"}
 deger
 ```
 
-*  `{}` kullanarak hashi olusturulabiliriz.
+*  `{}` kullanarak hash oluşturabiliriz.
 
 ```ruby
 hashler3 = {} # hashler3 isminde bir hash oluşturduk.
-hashler3[:"1234"] = "string" # anahtar degere karsilik bir string atadik.
-puts hashler3 # hashi ekrana yazdirdik.
-puts hashler3[:"1234"] # stringi yazdirdik.
+hashler3[:"1234"] = "string" # anahtar değere karşılık bir değer atadık.
+puts hashler3 # hashi ekrana yazdırdık.
+puts hashler3[:"1234"] # stringi yazdırdık.
 ```
 ```ruby
 {"1234"=>"string"}

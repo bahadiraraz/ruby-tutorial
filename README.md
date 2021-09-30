@@ -2,6 +2,9 @@
  
 ![img](https://github.com/myygunduz/ruby-tutorial/blob/main/ReadMeBahadır.png)
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
+[![Stars](https://img.shields.io/github/stars/bahadiraraz/ruby-tutorial?style=for-the-badge&color=yellow)](https://github.com/bahadiraraz/ruby-tutorial/stargazers)
+[![Forks](https://img.shields.io/github/forks/bahadiraraz/ruby-tutorial?style=for-the-badge&color=white)](https://github.com/bahadiraraz/ruby-tutorial/network/members)
+[![Issues](https://img.shields.io/github/issues/bahadiraraz/ruby-tutorial?style=for-the-badge&color=red)](https://github.com/bahadiraraz/ruby-tutorial/issues)
 
  # İçerik
 1. [Yazdırma Fonksiyonları](#paragraph1)
@@ -13,9 +16,9 @@
     * [boolean](https://github.com/BAHADIR54/ruby-tutorial/blob/main/boolean/boolean.md)
     * [hashes](https://github.com/bahadiraraz/ruby-tutorial/blob/main/hashes/hashes.md)
 3. [Operatörler](#paragraph1)
-    * [operatorler](https://github.com/BAHADIR54/ruby-tutorial/blob/main/operators/operators.md)
+    * [operatörler](https://github.com/BAHADIR54/ruby-tutorial/blob/main/operators/operators.md)
 4. [Diziler](#paragraph1)
-    * [Diziler](https://github.com/BAHADIR54/ruby-tutorial/blob/main/Diziler/diziler.md)
+    * [diziler](https://github.com/BAHADIR54/ruby-tutorial/blob/main/Diziler/diziler.md)
 
 <h3 align='center'> Paylaş </h3>
 
